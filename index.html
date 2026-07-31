@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/images/icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/assets/css/home-page-styles.css">
+  <script src="/assets/scripts/script.js"></script>
+  <title>Multiverso Spider Man</title>
+</head>
+<body>
+  <nav class="menu">
+    <li class="menu-item">
+      <a href="/pages/tobey-maguire/spiderman-1.html">Tobey Maguire</a>  
+    </li>
+    <li class="menu-item">
+      <a href="/pages/tom-holland/spiderman-1.html">Tom Holland</a>  
+    </li>
+    <li class="menu-item menu-icon">
+      <a href="/index.html">
+        <img src="/assets/images/icons/spider.svg" alt="Spider Man Icon">
+      </a>
+    </li>
+    <li class="menu-item">
+      <a href="/pages/andrew-garfield/spiderman-1.html">Andrew Garfield</a>  
+    </li>
+    <li class="menu-item">
+      <a href="/pages/miles-morales/spiderman-1.html">Miles Morales</a>  
+    </li>
+  </nav>
+  <div class="container">
+    <div class="cards-carrossel" style="transform: translateZ(-40vw) rotateY(0deg);">
+     <a href="/pages/tobey-maguire/spiderman-1.html" class="card" id="spider-man-01">
+      <img class="card-background" src="/assets/images/pic-sm-bg-01.jpg" alt="">
+      <img class="card-image" src="/assets/images/spider-man-01.png" alt="Tobey Maguire">
+      <h2 class="card-title">Tobey Maguire</h2>
+    </a>
+     <a href="/pages/andrew-garfield/spiderman-1.html" class="card" id="spider-man-02">
+      <img class="card-background" src="/assets/images/pic-sm-bg-03.jpg" alt="">
+      <img class="card-image" src="/assets/images/spider-man-03.png" alt="Andrew Garfield">
+      <h2 class="card-title">Andrew Garfield</h2>
+    </a>
+    <a href="/pages/tom-holland/spiderman-1.html" class="card" id="spider-man-03">
+      <img class="card-background" src="/assets/images/pic-sm-bg-02.jpg" alt="">
+      <img class="card-image" src="/assets/images/spider-man-02.png" alt="Tom Holland">
+      <h2 class="card-title">Tom Holland</h2>
+    </a>
+    <a href="/pages/miles-morales/spiderman-1.html" class="card" id="spider-man-04">
+      <img class="card-background" src="/assets/images/pic-sm-bg-04.png" alt="">
+      <img class="card-image" src="/assets/images/spider-man-04.png" alt="Miles Morales">
+      <h2 class="card-title">Miles Morales</h2>
+    </a> 
+    </div>
+  </div>
+
+  <div class="controller">
+    <div id="1" onclick="selectCarrosselItem(this)" class="controller-button controller-button--active">
+      01
+    </div>
+    <div id="2" onclick="selectCarrosselItem(this)" class="controller-button">
+      02
+    </div>
+    <div id="3" onclick="selectCarrosselItem(this)" class="controller-button">
+      03
+    </div>
+    <div id="4" onclick="selectCarrosselItem(this)" class="controller-button">
+      04
+    </div>
+    <div class="controller-line"></div>
+  </div>
+</body>
+</html>
